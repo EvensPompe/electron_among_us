@@ -1,0 +1,17 @@
+{
+  "name": "among_us",
+  "version": "1.0.0",
+  "description": "Among us like avec Electron ",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Evens Pompe",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^15.3.0"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.3.2"
+  }
+}
