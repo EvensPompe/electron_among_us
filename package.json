@@ -1,5 +1,5 @@
 {
-  "name": "among_us",
+  "name": "electron_among_us",
   "version": "1.0.0",
   "description": "Among us like avec Electron ",
   "main": "main.js",
