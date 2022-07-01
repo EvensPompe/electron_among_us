@@ -6,6 +6,8 @@ const dirPath = "./assets/Base/walk/";
 const dirPathReverse = "./assets/Base/walk/reverse/";
 module.exports = class GamePlayer extends GameImage {
     constructor(name, id, img, xSource, ySource, sourceWidth, sourceHeight, xDest, yDest, destWidth, destHeight) {
+        _initxDest = xDest;
+        _inityDest = yDest;
         super(img, xSource, ySource, sourceWidth, sourceHeight, _initxDest, _inityDest, destWidth, destHeight)
         this._speed = 3;
         this._name = name;
