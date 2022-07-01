@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <link href="./css/login-style.css" rel="stylesheet" />
+    <title>Among us Electron</title>
+  </head>
+
+  <body>
+    <form id="loginForm">
+      <label for="name">Nom d'utilisateur</label>
+      <div id="messagectn" class="hide"></div>
+      <input
+        name="name"
+        id="name"
+        placeholder="Entrer votre nom d'utilisateur"
+      />
+      <input type="submit" value="Se connecter" />
+    </form>
+  </body>
+</html>
